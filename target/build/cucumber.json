@@ -1,0 +1,5230 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 236791700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Retrasar respuesta del sistema en 5 segundos",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;retrasar-respuesta-del-sistema-en-\u003cid\u003e-segundos;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7670413200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users?delay\u003d5",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4731300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@RetrasarRespuesta_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11667200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Retrasar respuesta del sistema en 10 segundos",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;retrasar-respuesta-del-sistema-en-\u003cid\u003e-segundos;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10595751800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users?delay\u003d10",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1253200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@RetrasarRespuesta_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9475600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Retrasar respuesta del sistema en 15 segundos",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;retrasar-respuesta-del-sistema-en-\u003cid\u003e-segundos;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15551621600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users?delay\u003d15",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1704200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@RetrasarRespuesta_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8752600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Retrasar respuesta del sistema en 20 segundos",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;retrasar-respuesta-del-sistema-en-\u003cid\u003e-segundos;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20629827000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users?delay\u003d20",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1527300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@RetrasarRespuesta_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8004200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Retrasar        respuesta del sistema en * segundos - No hace retraso 200",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;retrasar--------respuesta-del-sistema-en-\u003cid\u003e-segundos---no-hace-retraso-200;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 583460500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users?delay\u003d*",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2186800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@RetrasarRespuesta_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7226900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Retrasar        respuesta del sistema en -1 segundos - No hace retraso 200",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;retrasar--------respuesta-del-sistema-en-\u003cid\u003e-segundos---no-hace-retraso-200;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 647434800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users?delay\u003d-1",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1392400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@RetrasarRespuesta_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7652700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Retrasar        respuesta del sistema en asd segundos - No hace retraso 200",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;retrasar--------respuesta-del-sistema-en-\u003cid\u003e-segundos---no-hace-retraso-200;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 554971600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users?delay\u003dasd",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1098000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@RetrasarRespuesta_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7400400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Retrasar        respuesta del sistema en @ segundos - No hace retraso 200",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;retrasar--------respuesta-del-sistema-en-\u003cid\u003e-segundos---no-hace-retraso-200;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 591606400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users?delay\u003d@",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1475400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@RetrasarRespuesta_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7806400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Obtener usuario único por un id en específico con: 1",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-usuario-único-por-un-id-en-específico-con:-\u003cid\u003e;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185112800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users/1",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1116300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UsuarioUnico_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6687500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Obtener usuario único por un id en específico con: 2",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-usuario-único-por-un-id-en-específico-con:-\u003cid\u003e;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165429200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users/2",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UsuarioUnico_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6035000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Obtener usuario único por un id en específico con: 3",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-usuario-único-por-un-id-en-específico-con:-\u003cid\u003e;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 174171200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users/3",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 951800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UsuarioUnico_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7240400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Obtener usuario único por un id en específico con: 4",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-usuario-único-por-un-id-en-específico-con:-\u003cid\u003e;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185046200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users/4",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 881800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UsuarioUnico_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6696900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Obtener usuario único por un id en específico con: 20 - ERROR 404",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-usuario-único-por-un-id-en-específico-con:-\u003cid\u003e---error-404;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 565338700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users/20",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 921900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "valido que el codigo de respuesta sea: \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UsuarioUnico_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6221400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Obtener usuario único por un id en específico con: -1 - ERROR 404",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-usuario-único-por-un-id-en-específico-con:-\u003cid\u003e---error-404;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 563538400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users/-1",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1177500,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "valido que el codigo de respuesta sea: \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UsuarioUnico_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5891800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Obtener usuario único por un id en específico con: 22 - ERROR 404",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-usuario-único-por-un-id-en-específico-con:-\u003cid\u003e---error-404;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 545678900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users/22",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 908400,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "valido que el codigo de respuesta sea: \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UsuarioUnico_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6878500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 63,
+        "name": "Obtener usuario único por un id en específico con: a - ERROR 404",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-usuario-único-por-un-id-en-específico-con:-\u003cid\u003e---error-404;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 562309300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users/a",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1019200,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "valido que el codigo de respuesta sea: \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UsuarioUnico_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6393900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "Obtener recurso único por un id para el 5",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-recurso-único-por-un-id-para-el-\u003cid\u003e;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 167146600,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/unknown/5",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 905500,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UnicoRecurso_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5012100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Obtener recurso único por un id para el 6",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-recurso-único-por-un-id-para-el-\u003cid\u003e;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 172324500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/unknown/6",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 957300,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UnicoRecurso_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5686500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "Obtener recurso único por un id para el 7",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-recurso-único-por-un-id-para-el-\u003cid\u003e;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155309200,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/unknown/7",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 832900,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UnicoRecurso_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5168200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "Obtener recurso único por un id para el 8",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-recurso-único-por-un-id-para-el-\u003cid\u003e;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180456800,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/unknown/8",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 966200,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UnicoRecurso_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6061600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 88,
+        "name": "Obtener recurso único por un id para el 21* - ERROR 404",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-recurso-único-por-un-id-para-el-\u003cid\u003e---error-404;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 567704700,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/unknown/21*",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1036600,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "valido que el codigo de respuesta sea: \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UnicoRecurso_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5056600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 89,
+        "name": "Obtener recurso único por un id para el -2 - ERROR 404",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-recurso-único-por-un-id-para-el-\u003cid\u003e---error-404;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 542800700,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/unknown/-2",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1369500,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "valido que el codigo de respuesta sea: \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UnicoRecurso_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5174800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 90,
+        "name": "Obtener recurso único por un id para el 40 - ERROR 404",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-recurso-único-por-un-id-para-el-\u003cid\u003e---error-404;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 570983400,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/unknown/40",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 798700,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "valido que el codigo de respuesta sea: \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UnicoRecurso_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5247500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 91,
+        "name": "Obtener recurso único por un id para el a* - ERROR 404",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;obtener-recurso-único-por-un-id-para-el-\u003cid\u003e---error-404;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 644281600,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "que ejecuto el servicio con o sin header y body",
+            "match": {
+              "location": "APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/unknown/a*",
+                  "get"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1429100,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "valido que el codigo de respuesta sea: \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@UnicoRecurso_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5104000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 111,
+        "name": "Crear Elemento mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-elemento-mediante-api;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1134100,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 19458300,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "configuro el body del servicio: \"crearElemento\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crearElemento",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Paolo"
+                ]
+              },
+              {
+                "cells": [
+                  "job",
+                  "Tester"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 563377000,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 938200,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "valido que el codigo de respuesta sea: \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearElemento_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5198200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 112,
+        "name": "Crear Elemento mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-elemento-mediante-api;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1342100,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1536600,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "configuro el body del servicio: \"crearElemento\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crearElemento",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Mauro"
+                ]
+              },
+              {
+                "cells": [
+                  "job",
+                  "Leader"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 557272900,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1749200,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "valido que el codigo de respuesta sea: \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearElemento_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6945400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 113,
+        "name": "Crear Elemento mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-elemento-mediante-api;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1062700,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1489900,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "configuro el body del servicio: \"crearElemento\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crearElemento",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Bruno"
+                ]
+              },
+              {
+                "cells": [
+                  "job",
+                  "Capo"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 600063900,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 832700,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "valido que el codigo de respuesta sea: \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearElemento_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5163700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 114,
+        "name": "Crear Elemento mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-elemento-mediante-api;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1003600,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1695100,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "configuro el body del servicio: \"crearElemento\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crearElemento",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Giorno"
+                ]
+              },
+              {
+                "cells": [
+                  "job",
+                  "Star"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 530698000,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1694700,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "valido que el codigo de respuesta sea: \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearElemento_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7168000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 133,
+        "name": "Crear Elemento mediante api - Key \"\u003cname\u003e\" sin contenido en el resultado 201",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-elemento-mediante-api---key-\"\u003cname\u003e\"-sin-contenido-en-el-resultado-201;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1601100,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1313900,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "configuro el body del servicio: \"crearElementoFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crearElementoFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "job",
+                  "Tester"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 558343300,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1791700,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "valido que el codigo de respuesta sea: \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearElemento_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8188400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 134,
+        "name": "Crear Elemento mediante api - Key \"\u003cname\u003e\" sin contenido en el resultado 201",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-elemento-mediante-api---key-\"\u003cname\u003e\"-sin-contenido-en-el-resultado-201;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1935700,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2133100,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "configuro el body del servicio: \"crearElementoFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crearElementoFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "job",
+                  "Leader"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 567522300,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "valido que el codigo de respuesta sea: \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearElemento_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6002000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 135,
+        "name": "Crear Elemento mediante api - Key \"\u003cname\u003e\" sin contenido en el resultado 201",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-elemento-mediante-api---key-\"\u003cname\u003e\"-sin-contenido-en-el-resultado-201;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1277800,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1415100,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "configuro el body del servicio: \"crearElementoFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crearElementoFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "job",
+                  "Capo"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 526605900,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1193300,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "valido que el codigo de respuesta sea: \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearElemento_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4960800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 136,
+        "name": "Crear Elemento mediante api - Key \"\u003cname\u003e\" sin contenido en el resultado 201",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-elemento-mediante-api---key-\"\u003cname\u003e\"-sin-contenido-en-el-resultado-201;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1118000,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1078000,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "configuro el body del servicio: \"crearElementoFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crearElementoFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "job",
+                  "Star"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 574071200,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/users",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 981000,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "valido que el codigo de respuesta sea: \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearElemento_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4259300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 156,
+        "name": "Crear registro mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-registro-mediante-api;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1514800,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1265500,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "configuro el body del servicio: \"registerAndLogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLogin",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "eve.holt@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "123456"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 545981200,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/register",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1165400,
+              "status": "passed"
+            },
+            "line": 153,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearRegistro_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4717000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 157,
+        "name": "Crear registro mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-registro-mediante-api;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1236900,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "configuro el body del servicio: \"registerAndLogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLogin",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "george.bluth@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "654321"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 577936800,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/register",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 868400,
+              "status": "passed"
+            },
+            "line": 153,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearRegistro_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4471400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 158,
+        "name": "Crear registro mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-registro-mediante-api;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1103500,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "configuro el body del servicio: \"registerAndLogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLogin",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "janet.weaver@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "987654"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 560096200,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/register",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1164800,
+              "status": "passed"
+            },
+            "line": 153,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearRegistro_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6359400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 159,
+        "name": "Crear registro mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-registro-mediante-api;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2097400,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1665800,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "configuro el body del servicio: \"registerAndLogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLogin",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "emma.wong@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "456789"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 575083800,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/register",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1176100,
+              "status": "passed"
+            },
+            "line": 153,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearRegistro_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4564600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 178,
+        "name": "Crear registro mediante api - Password no encontrado 400",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-registro-mediante-api---password-no-encontrado-400;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 970900,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1017300,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "configuro el body del servicio: \"registerAndLoginFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLoginFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "eve.holt@reqres.in"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 545011600,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/register",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 880400,
+              "status": "passed"
+            },
+            "line": 175,
+            "name": "valido que el codigo de respuesta sea: \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearRegistro_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4874000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 179,
+        "name": "Crear registro mediante api - Password no encontrado 400",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-registro-mediante-api---password-no-encontrado-400;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1250400,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1449000,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "configuro el body del servicio: \"registerAndLoginFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLoginFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "george.bluth@reqres.in"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 538375000,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/register",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 822900,
+              "status": "passed"
+            },
+            "line": 175,
+            "name": "valido que el codigo de respuesta sea: \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearRegistro_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4118900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 180,
+        "name": "Crear registro mediante api - Password no encontrado 400",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-registro-mediante-api---password-no-encontrado-400;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1082000,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1083300,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "configuro el body del servicio: \"registerAndLoginFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLoginFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "janet.weaver@reqres.in"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 550816300,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/register",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1247900,
+              "status": "passed"
+            },
+            "line": 175,
+            "name": "valido que el codigo de respuesta sea: \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearRegistro_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4295200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 181,
+        "name": "Crear registro mediante api - Password no encontrado 400",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-registro-mediante-api---password-no-encontrado-400;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1979700,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1437200,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "configuro el body del servicio: \"registerAndLoginFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLoginFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "emma.wong@reqres.in"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 563669200,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/register",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 995800,
+              "status": "passed"
+            },
+            "line": 175,
+            "name": "valido que el codigo de respuesta sea: \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearRegistro_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4102900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 200,
+        "name": "Crear login mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-login-mediante-api;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 983700,
+              "status": "passed"
+            },
+            "line": 186,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1057200,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "configuro el body del servicio: \"registerAndLogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLogin",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "eve.holt@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "123456"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 553690700,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/login",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 884400,
+              "status": "passed"
+            },
+            "line": 197,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearLogin_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3744700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 201,
+        "name": "Crear login mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-login-mediante-api;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 868600,
+              "status": "passed"
+            },
+            "line": 186,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1013000,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "configuro el body del servicio: \"registerAndLogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLogin",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "george.bluth@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "654321"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 524283800,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/login",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 844200,
+              "status": "passed"
+            },
+            "line": 197,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearLogin_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4236500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 202,
+        "name": "Crear login mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-login-mediante-api;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 947600,
+              "status": "passed"
+            },
+            "line": 186,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1050900,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "configuro el body del servicio: \"registerAndLogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLogin",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "janet.weaver@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "987654"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 564331600,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/login",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 882100,
+              "status": "passed"
+            },
+            "line": 197,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearLogin_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4288400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 203,
+        "name": "Crear login mediante api",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-login-mediante-api;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 989400,
+              "status": "passed"
+            },
+            "line": 186,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1173000,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "configuro el body del servicio: \"registerAndLogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLogin",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "emma.wong@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "456789"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 530257600,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/login",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1086900,
+              "status": "passed"
+            },
+            "line": 197,
+            "name": "valido que el codigo de respuesta sea: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearLogin_Positivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3848600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 222,
+        "name": "Crear login mediante api - Password no encontrado 400",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-login-mediante-api---password-no-encontrado-400;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1311100,
+              "status": "passed"
+            },
+            "line": 208,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1145100,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "configuro el body del servicio: \"registerAndLoginFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLoginFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "eve.holt@reqres.in"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 529431700,
+              "status": "passed"
+            },
+            "line": 216,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/login",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 819500,
+              "status": "passed"
+            },
+            "line": 219,
+            "name": "valido que el codigo de respuesta sea: \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearLogin_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3996500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 223,
+        "name": "Crear login mediante api - Password no encontrado 400",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-login-mediante-api---password-no-encontrado-400;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 904600,
+              "status": "passed"
+            },
+            "line": 208,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1966800,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "configuro el body del servicio: \"registerAndLoginFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLoginFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "george.bluth@reqres.in"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 579297900,
+              "status": "passed"
+            },
+            "line": 216,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/login",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1009500,
+              "status": "passed"
+            },
+            "line": 219,
+            "name": "valido que el codigo de respuesta sea: \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearLogin_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3771400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 224,
+        "name": "Crear login mediante api - Password no encontrado 400",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-login-mediante-api---password-no-encontrado-400;;4",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1004800,
+              "status": "passed"
+            },
+            "line": 208,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1060500,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "configuro el body del servicio: \"registerAndLoginFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLoginFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "janet.weaver@reqres.in"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 544506300,
+              "status": "passed"
+            },
+            "line": 216,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/login",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 816200,
+              "status": "passed"
+            },
+            "line": 219,
+            "name": "valido que el codigo de respuesta sea: \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearLogin_Negativo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4224900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APIStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 225,
+        "name": "Crear login mediante api - Password no encontrado 400",
+        "description": "",
+        "id": "automatizacion-de-api-tarea;crear-login-mediante-api---password-no-encontrado-400;;5",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1380600,
+              "status": "passed"
+            },
+            "line": 208,
+            "name": "que configuro los headers",
+            "match": {
+              "location": "APIStepDefinition.configurarHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "headers",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              },
+              {
+                "cells": [
+                  "Accept",
+                  "*/*"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1176300,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "configuro el body del servicio: \"registerAndLoginFail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "registerAndLoginFail",
+                  "offset": 33
+                }
+              ],
+              "location": "APIStepDefinition.configuroElBodyDelServicio(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "valor"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "emma.wong@reqres.in"
+                ]
+              }
+            ],
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 564115100,
+              "status": "passed"
+            },
+            "line": 216,
+            "name": "ejecuto servicio con la confiuracion del body y headers",
+            "match": {
+              "location": "APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "path",
+                  "method"
+                ]
+              },
+              {
+                "cells": [
+                  "nux",
+                  "/api/login",
+                  "post"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 764200,
+              "status": "passed"
+            },
+            "line": 219,
+            "name": "valido que el codigo de respuesta sea: \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TareaDeAutomatizacionAPI"
+          },
+          {
+            "name": "@CrearLogin_Negativo"
+          }
+        ]
+      }
+    ],
+    "name": "Automatizacion de API TAREA",
+    "description": "  Como un alumno de la escuela NTT Data de Testing\n  Quiero redactar y automatizar APIs\n  Para obtener valores y respuestas de la solicitudes enviadas\n  Esto me ayudará a tener posibilidades de ser parte de NTT Data",
+    "id": "automatizacion-de-api-tarea",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/TareaAutomatizacionAPI.feature",
+    "tags": [
+      {
+        "name": "@TareaDeAutomatizacionAPI",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

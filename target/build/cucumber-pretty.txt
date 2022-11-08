@@ -1,0 +1,390 @@
+@TareaDeAutomatizacionAPI
+Característica: Automatizacion de API TAREA
+  Como un alumno de la escuela NTT Data de Testing
+  Quiero redactar y automatizar APIs
+  Para obtener valores y respuestas de la solicitudes enviadas
+  Esto me ayudará a tener posibilidades de ser parte de NTT Data
+
+  @RetrasarRespuesta_Positivo
+  Esquema del escenario: Retrasar respuesta del sistema en <id> segundos [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:11[0m
+    [36mDado que ejecuto el servicio con o sin header y body[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @RetrasarRespuesta_Positivo
+  Esquema del escenario: Retrasar respuesta del sistema en 5 segundos [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:18[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m              [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m             [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @RetrasarRespuesta_Positivo
+  Esquema del escenario: Retrasar respuesta del sistema en 10 segundos [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:19[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m               [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m              [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @RetrasarRespuesta_Positivo
+  Esquema del escenario: Retrasar respuesta del sistema en 15 segundos [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:20[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m               [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m              [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @RetrasarRespuesta_Positivo
+  Esquema del escenario: Retrasar respuesta del sistema en 20 segundos [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:21[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m               [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m              [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @RetrasarRespuesta_Negativo
+  Esquema del escenario: Retrasar        respuesta del sistema en <id> segundos - No hace retraso 200 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:25[0m
+    [36mDado que ejecuto el servicio con o sin header y body[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @RetrasarRespuesta_Negativo
+  Esquema del escenario: Retrasar        respuesta del sistema en * segundos - No hace retraso 200 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:32[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                                           [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m                                          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @RetrasarRespuesta_Negativo
+  Esquema del escenario: Retrasar        respuesta del sistema en -1 segundos - No hace retraso 200 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:33[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                                            [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m                                           [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @RetrasarRespuesta_Negativo
+  Esquema del escenario: Retrasar        respuesta del sistema en asd segundos - No hace retraso 200 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:34[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                                             [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m                                            [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @RetrasarRespuesta_Negativo
+  Esquema del escenario: Retrasar        respuesta del sistema en @ segundos - No hace retraso 200 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:35[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                                           [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m                                          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @UsuarioUnico_Positivo
+  Esquema del escenario: Obtener usuario único por un id en específico con: <id> [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:39[0m
+    [36mDado que ejecuto el servicio con o sin header y body[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @UsuarioUnico_Positivo
+  Esquema del escenario: Obtener usuario único por un id en específico con: 1 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:46[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                      [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m                     [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UsuarioUnico_Positivo
+  Esquema del escenario: Obtener usuario único por un id en específico con: 2 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:47[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                      [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m                     [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UsuarioUnico_Positivo
+  Esquema del escenario: Obtener usuario único por un id en específico con: 3 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:48[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                      [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m                     [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UsuarioUnico_Positivo
+  Esquema del escenario: Obtener usuario único por un id en específico con: 4 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:49[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                      [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m                     [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @UsuarioUnico_Negativo
+  Esquema del escenario: Obtener usuario único por un id en específico con: <id> - ERROR 404 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:53[0m
+    [36mDado que ejecuto el servicio con o sin header y body[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @UsuarioUnico_Negativo
+  Esquema del escenario: Obtener usuario único por un id en específico con: 20 - ERROR 404 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:60[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                                   [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m404[0m[32m"[0m                                  [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UsuarioUnico_Negativo
+  Esquema del escenario: Obtener usuario único por un id en específico con: -1 - ERROR 404 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:61[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                                   [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m404[0m[32m"[0m                                  [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UsuarioUnico_Negativo
+  Esquema del escenario: Obtener usuario único por un id en específico con: 22 - ERROR 404 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:62[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                                   [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m404[0m[32m"[0m                                  [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UsuarioUnico_Negativo
+  Esquema del escenario: Obtener usuario único por un id en específico con: a - ERROR 404 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:63[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                                  [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m404[0m[32m"[0m                                 [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @UnicoRecurso_Positivo
+  Esquema del escenario: Obtener recurso único por un id para el <id> [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:67[0m
+    [36mDado que ejecuto el servicio con o sin header y body[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @UnicoRecurso_Positivo
+  Esquema del escenario: Obtener recurso único por un id para el 5 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:74[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m           [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UnicoRecurso_Positivo
+  Esquema del escenario: Obtener recurso único por un id para el 6 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:75[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m           [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UnicoRecurso_Positivo
+  Esquema del escenario: Obtener recurso único por un id para el 7 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:76[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m           [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UnicoRecurso_Positivo
+  Esquema del escenario: Obtener recurso único por un id para el 8 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:77[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m           [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @UnicoRecurso_Negativo
+  Esquema del escenario: Obtener recurso único por un id para el <id> - ERROR 404 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:81[0m
+    [36mDado que ejecuto el servicio con o sin header y body[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @UnicoRecurso_Negativo
+  Esquema del escenario: Obtener recurso único por un id para el 21* - ERROR 404 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:88[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                         [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m404[0m[32m"[0m                        [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UnicoRecurso_Negativo
+  Esquema del escenario: Obtener recurso único por un id para el -2 - ERROR 404 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:89[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                        [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m404[0m[32m"[0m                       [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UnicoRecurso_Negativo
+  Esquema del escenario: Obtener recurso único por un id para el 40 - ERROR 404 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:90[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                        [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m404[0m[32m"[0m                       [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @UnicoRecurso_Negativo
+  Esquema del escenario: Obtener recurso único por un id para el a* - ERROR 404 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:91[0m
+    [32mDado [0m[32mque ejecuto el servicio con o sin header y body[0m                        [90m# APIStepDefinition.queEjecutoElServicioSinHeaderNiBody(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m404[0m[32m"[0m                       [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @CrearElemento_Positivo
+  Esquema del escenario: Crear Elemento mediante api [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:96[0m
+    [36mDado que configuro los headers[0m
+    [36mY configuro el body del servicio: "crearElemento"[0m
+    [36mCuando ejecuto servicio con la confiuracion del body y headers[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @CrearElemento_Positivo
+  Esquema del escenario: Crear Elemento mediante api               [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:111[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mcrearElemento[0m[32m"[0m              [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m201[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearElemento_Positivo
+  Esquema del escenario: Crear Elemento mediante api               [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:112[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mcrearElemento[0m[32m"[0m              [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m201[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearElemento_Positivo
+  Esquema del escenario: Crear Elemento mediante api               [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:113[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mcrearElemento[0m[32m"[0m              [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m201[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearElemento_Positivo
+  Esquema del escenario: Crear Elemento mediante api               [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:114[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mcrearElemento[0m[32m"[0m              [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m201[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @CrearElemento_Negativo
+  Esquema del escenario: Crear Elemento mediante api - Key "<name>" sin contenido en el resultado 201 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:118[0m
+    [36mDado que configuro los headers[0m
+    [36mY configuro el body del servicio: "crearElementoFail"[0m
+    [36mCuando ejecuto servicio con la confiuracion del body y headers[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @CrearElemento_Negativo
+  Esquema del escenario: Crear Elemento mediante api - Key "<name>" sin contenido en el resultado 201 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:133[0m
+    [32mDado [0m[32mque configuro los headers[0m                                                                    [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mcrearElementoFail[0m[32m"[0m                                             [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m                                    [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m201[0m[32m"[0m                                             [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearElemento_Negativo
+  Esquema del escenario: Crear Elemento mediante api - Key "<name>" sin contenido en el resultado 201 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:134[0m
+    [32mDado [0m[32mque configuro los headers[0m                                                                    [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mcrearElementoFail[0m[32m"[0m                                             [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m                                    [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m201[0m[32m"[0m                                             [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearElemento_Negativo
+  Esquema del escenario: Crear Elemento mediante api - Key "<name>" sin contenido en el resultado 201 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:135[0m
+    [32mDado [0m[32mque configuro los headers[0m                                                                    [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mcrearElementoFail[0m[32m"[0m                                             [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m                                    [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m201[0m[32m"[0m                                             [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearElemento_Negativo
+  Esquema del escenario: Crear Elemento mediante api - Key "<name>" sin contenido en el resultado 201 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:136[0m
+    [32mDado [0m[32mque configuro los headers[0m                                                                    [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mcrearElementoFail[0m[32m"[0m                                             [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m                                    [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m201[0m[32m"[0m                                             [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @CrearRegistro_Positivo
+  Esquema del escenario: Crear registro mediante api [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:141[0m
+    [36mDado que configuro los headers[0m
+    [36mY configuro el body del servicio: "registerAndLogin"[0m
+    [36mCuando ejecuto servicio con la confiuracion del body y headers[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @CrearRegistro_Positivo
+  Esquema del escenario: Crear registro mediante api               [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:156[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLogin[0m[32m"[0m           [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearRegistro_Positivo
+  Esquema del escenario: Crear registro mediante api               [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:157[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLogin[0m[32m"[0m           [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearRegistro_Positivo
+  Esquema del escenario: Crear registro mediante api               [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:158[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLogin[0m[32m"[0m           [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearRegistro_Positivo
+  Esquema del escenario: Crear registro mediante api               [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:159[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLogin[0m[32m"[0m           [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @CrearRegistro_Negativo
+  Esquema del escenario: Crear registro mediante api - Password no encontrado 400 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:163[0m
+    [36mDado que configuro los headers[0m
+    [36mY configuro el body del servicio: "registerAndLoginFail"[0m
+    [36mCuando ejecuto servicio con la confiuracion del body y headers[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @CrearRegistro_Negativo
+  Esquema del escenario: Crear registro mediante api - Password no encontrado 400 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:178[0m
+    [32mDado [0m[32mque configuro los headers[0m                                                [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLoginFail[0m[32m"[0m                      [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m                [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m400[0m[32m"[0m                         [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearRegistro_Negativo
+  Esquema del escenario: Crear registro mediante api - Password no encontrado 400 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:179[0m
+    [32mDado [0m[32mque configuro los headers[0m                                                [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLoginFail[0m[32m"[0m                      [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m                [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m400[0m[32m"[0m                         [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearRegistro_Negativo
+  Esquema del escenario: Crear registro mediante api - Password no encontrado 400 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:180[0m
+    [32mDado [0m[32mque configuro los headers[0m                                                [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLoginFail[0m[32m"[0m                      [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m                [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m400[0m[32m"[0m                         [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearRegistro_Negativo
+  Esquema del escenario: Crear registro mediante api - Password no encontrado 400 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:181[0m
+    [32mDado [0m[32mque configuro los headers[0m                                                [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLoginFail[0m[32m"[0m                      [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m                [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m400[0m[32m"[0m                         [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @CrearLogin_Positivo
+  Esquema del escenario: Crear login mediante api [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:185[0m
+    [36mDado que configuro los headers[0m
+    [36mY configuro el body del servicio: "registerAndLogin"[0m
+    [36mCuando ejecuto servicio con la confiuracion del body y headers[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @CrearLogin_Positivo
+  Esquema del escenario: Crear login mediante api                  [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:200[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLogin[0m[32m"[0m           [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearLogin_Positivo
+  Esquema del escenario: Crear login mediante api                  [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:201[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLogin[0m[32m"[0m           [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearLogin_Positivo
+  Esquema del escenario: Crear login mediante api                  [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:202[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLogin[0m[32m"[0m           [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearLogin_Positivo
+  Esquema del escenario: Crear login mediante api                  [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:203[0m
+    [32mDado [0m[32mque configuro los headers[0m                                 [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLogin[0m[32m"[0m           [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m200[0m[32m"[0m          [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @CrearLogin_Negativo
+  Esquema del escenario: Crear login mediante api - Password no encontrado 400 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:207[0m
+    [36mDado que configuro los headers[0m
+    [36mY configuro el body del servicio: "registerAndLoginFail"[0m
+    [36mCuando ejecuto servicio con la confiuracion del body y headers[0m
+    [36mEntonces valido que el codigo de respuesta sea: "<codigo>"[0m
+
+    Ejemplos: 
+
+  @TareaDeAutomatizacionAPI @CrearLogin_Negativo
+  Esquema del escenario: Crear login mediante api - Password no encontrado 400 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:222[0m
+    [32mDado [0m[32mque configuro los headers[0m                                             [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLoginFail[0m[32m"[0m                   [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m             [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m400[0m[32m"[0m                      [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearLogin_Negativo
+  Esquema del escenario: Crear login mediante api - Password no encontrado 400 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:223[0m
+    [32mDado [0m[32mque configuro los headers[0m                                             [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLoginFail[0m[32m"[0m                   [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m             [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m400[0m[32m"[0m                      [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearLogin_Negativo
+  Esquema del escenario: Crear login mediante api - Password no encontrado 400 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:224[0m
+    [32mDado [0m[32mque configuro los headers[0m                                             [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLoginFail[0m[32m"[0m                   [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m             [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m400[0m[32m"[0m                      [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+
+  @TareaDeAutomatizacionAPI @CrearLogin_Negativo
+  Esquema del escenario: Crear login mediante api - Password no encontrado 400 [90m# src/test/resources/features/TareaAutomatizacionAPI.feature:225[0m
+    [32mDado [0m[32mque configuro los headers[0m                                             [90m# APIStepDefinition.configurarHeaders(DataTable)[0m
+    [32mY [0m[32mconfiguro el body del servicio: "[0m[32m[1mregisterAndLoginFail[0m[32m"[0m                   [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mCuando [0m[32mejecuto servicio con la confiuracion del body y headers[0m             [90m# APIStepDefinition.ejecutoServicioConLaConfiuracionDelBodyYHeaders(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea: "[0m[32m[1m400[0m[32m"[0m                      [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
